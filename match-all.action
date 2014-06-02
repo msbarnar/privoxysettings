@@ -10,6 +10,6 @@
  +client-header-tagger{image-requests} \
  +client-header-tagger{css-requests} \
  +hide-from-header{block} \
- +set-image-blocker{http://config.privoxy.org/send-banner?type=blank} \
+ +set-image-blocker{http://config.privoxy.org/send-banner?type=pattern} \
 }
 / # Match all URLs
