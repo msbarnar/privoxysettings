@@ -13385,7 +13385,7 @@ adv.
 .orissadiary.com/img/.*-banner\.gif
 .orkut.gmodules.com//promote\.xml
 .orlandosentinel2.com/.*-sponsorship-
-.osdir.com/ml/
+#.osdir.com/ml/
 .oteupload.com/images/iLivid-download-
 .ourmanga.com/funklicks
 .outlookindia.com/image/banner_
@@ -15869,7 +15869,7 @@ adv.
 .onionstatic.com/.*/videoads\.js
 .openx.nobelprize.org/openx/www/delivery/
 .orlandosentinel.com/hive/images/adv_
-.osdir.com/ml/dateindex.*&num=
+#.osdir.com/ml/dateindex.*&num=
 .ox-d.sbnation.com/w/1\.0/jstag$
 .ozspeedtest.com/js/pop\.js
 .pachanyc.com/_images/advertise_submit\.gif

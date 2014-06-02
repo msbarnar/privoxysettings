@@ -165,13 +165,12 @@
      document.write('\
   <table cellpadding="20" cellspacing="10" border="0" width="100%">\
     <tr> \
-      <td class="status"> \
-        BLOCKED \
+      <td class="status" width="80%"> \
+        Superman no esta aqui \
       </td> \
-      <td class="title" width=100%> \
+      <td class="title"> \
          <h1> \
-          This is <a href="@homepage@">Privoxy</a> @version@ on @my-hostname@ (@my-ip-address@), port @my-port@, \
-          @if-enabled-display-then@enabled@else-not-enabled-display@disabled@endif-enabled-display@ \
+          <a href="@homepage@">Privoxy</a> @version@ <br/> @my-ip-address@:@my-port@ \
         </h1> \
       </td> \
     </tr> \
@@ -208,35 +207,6 @@
       <td class="box" colspan="2"> \
         <h2>More Privoxy:</h2> \
         <ul>@menu@<li><a href="@user-manual@">Documentation</a></li></ul> \
-      </td> \
-    </tr> \
- \
-    <tr> \
-      <td class="info" colspan="2"> \
-        <big><b>Support and Service via Sourceforge:</b></big> \
-        <p> \
-          We value your feedback. To provide you with the best support, \
-          we ask that you: \
-        </p> \
-        <ul> \
-          <li> \
-            use the <a href="http://sourceforge.net/tracker/?group_id=11118&amp;atid=211118">support forum</a> or (better) the \
-            <a href="http://sourceforge.net/mail/?group_id=11118">mailing lists</a> to get help. \
-          </li> \
-          <li> \
-            submit banners and all problems with the actions file only through the \
-            <a href="javascript:void(window.open(\'http://www.privoxy.org/actions\',\'Feedback\',\'width=600,scrollbars=yes,toolbar=no,location=no,directories=no,status=no,menubar=no,copyhistory=no\').focus());">actions \
-            file feedback system</a>. \
-          </li> \
-          <li> \
-            submit bugs only through our <a href="http://sourceforge.net/tracker/?group_id=11118&amp;atid=111118">bug tracker</a>. \
-            Make sure that the bug has not yet been submitted. \
-          </li> \
-          <li> \
-            submit feature requests only through our <a href="http://sourceforge.net/tracker/?atid=361118&amp;group_id=11118&amp;func=browse">feature \
-            request tracker</a>. \
-          </li> \
-        </ul> \
       </td> \
     </tr> \
  \
